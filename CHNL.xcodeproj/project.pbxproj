@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AED244D31EA52B7700B26FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED244D21EA52B7700B26FEB /* AppDelegate.swift */; };
-		AED244D51EA52B7700B26FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED244D41EA52B7700B26FEB /* ViewController.swift */; };
-		AED244D81EA52B7700B26FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED244D61EA52B7700B26FEB /* Main.storyboard */; };
 		AED244DA1EA52B7700B26FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED244D91EA52B7700B26FEB /* Assets.xcassets */; };
 		AED244E51EA52B7700B26FEB /* CHNLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED244E41EA52B7700B26FEB /* CHNLTests.swift */; };
 		AED244F01EA52B7700B26FEB /* CHNLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED244EF1EA52B7700B26FEB /* CHNLUITests.swift */; };
@@ -35,8 +33,6 @@
 /* Begin PBXFileReference section */
 		AED244CF1EA52B7700B26FEB /* CHNL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHNL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED244D21EA52B7700B26FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AED244D41EA52B7700B26FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AED244D71EA52B7700B26FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED244D91EA52B7700B26FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED244DB1EA52B7700B26FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AED244E01EA52B7700B26FEB /* CHNLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHNLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				AED244D21EA52B7700B26FEB /* AppDelegate.swift */,
-				AED244D41EA52B7700B26FEB /* ViewController.swift */,
-				AED244D61EA52B7700B26FEB /* Main.storyboard */,
 				AED244D91EA52B7700B26FEB /* Assets.xcassets */,
 				AED244DB1EA52B7700B26FEB /* Info.plist */,
 			);
@@ -233,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED244DA1EA52B7700B26FEB /* Assets.xcassets in Resources */,
-				AED244D81EA52B7700B26FEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED244D51EA52B7700B26FEB /* ViewController.swift in Sources */,
 				AED244D31EA52B7700B26FEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,17 +285,6 @@
 			targetProxy = AED244EC1EA52B7700B26FEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AED244D61EA52B7700B26FEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AED244D71EA52B7700B26FEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AED244F21EA52B7700B26FEB /* Debug */ = {
